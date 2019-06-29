@@ -1,0 +1,10 @@
+@import "./cleanup";
+@import "./variables";
+
+#player {
+    height: 100vh;
+    background-color: $backgroundColor;
+    overflow: hidden;
+    
+    @import "./header";
+}
