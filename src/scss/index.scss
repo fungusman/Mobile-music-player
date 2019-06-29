@@ -1,5 +1,6 @@
 @import "./cleanup";
 @import "./variables";
+@import "./animation";
 
 #player {
     height: 100vh;
@@ -7,4 +8,5 @@
     overflow: hidden;
     
     @import "./header";
+    @import "./panels";
 }
